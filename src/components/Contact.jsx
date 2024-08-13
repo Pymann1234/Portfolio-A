@@ -125,7 +125,7 @@ const Contact = () => {
               {/* Button text based on loading state */}
             </button>
             <Link
-              to="https://drive.google.com/file/d/1rNKNp1Pw4SM7ULWO1-fmBYrBLN3XvEKd/view?usp=sharing"
+              to="https://drive.google.com/file/d/1D5GLfB9VSgo7-vTfe7RNIc-gfWZkH1Iy/view?usp=drive_link"
               target="_blank"
               className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
             >
