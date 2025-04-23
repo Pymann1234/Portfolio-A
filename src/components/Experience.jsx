@@ -56,7 +56,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What Have I Done So Far</p>
-        <h2 className={styles.sectionHeadText}>Experience.</h2>
+        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

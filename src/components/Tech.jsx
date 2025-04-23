@@ -8,7 +8,7 @@ const Tech = () => {
     <>
       {/* Section title */}
       <span className={`${styles.heroSubText} flex justify-center py-10`}>
-        Tech Stack.
+        Tech Stacks
       </span>
       {/* Container for displaying technology icons */}
       <div className="flex flex-row flex-wrap justify-center gap-10">
