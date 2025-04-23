@@ -44,14 +44,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As a highly skilled Front-End developer, I bring extensive experience in
-        HTML, CSS, TailwindCSS, JavaScript, along with expertise in frameworks
-        such as React, Next.js. My proficiency extends to working with Node.js,
-        Express.js, MongoDB. A quick learner with a passion for acquiring new
-        skills and knowledge. I thrive on working closely with my team to
-        develop efficient, scalable, and user-friendly solutions that address
-        real-world challenges. Let's join forces to turn your ideas into
-        reality!
+        I am a passionate and skilled Full-Stack Web Developer with hands-on
+        experience in Frontend technologies like HTML, CSS, TailwindCSS,
+        JavaScript, React, and Next.js, as well as Backend technologies like
+        Node.js, Express.js, and MongoDB. I’m a fast learner who loves solving
+        real-world problems through efficient and scalable solutions. I’m
+        currently open to job opportunities and freelance offers where I can
+        contribute, learn, and grow with a dynamic team.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

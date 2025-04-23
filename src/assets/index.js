@@ -16,16 +16,13 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
-import next from "./tech/next.png"
+import next from "./tech/next.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import bel from "./company/bel.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import bibleApp from "./bible.png"; // bible app
+import iPhone from "./apple.png"; // iphone
+import productStore from "./productStore.png"; // product store
 
 export {
   logo,
@@ -45,12 +42,9 @@ export {
   reactjs,
   tailwind,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  bel,
+  bibleApp,
+  iPhone,
+  productStore,
   next
 };

@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="">
           {/* Main heading */}
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#5f2bcf]">Sam</span>
+            Hi, I&apos;m <span className="text-[#5f2bcf]">Sam</span>
           </h1>
           {/* Subheading */}
           <p className={`${styles.heroSubText} mt-2 text-white`}>

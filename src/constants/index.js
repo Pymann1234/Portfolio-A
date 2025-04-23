@@ -11,13 +11,11 @@ import {
   nodejs,
   mongodb,
   git,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  bibleApp,
+  iPhone,
+  productStore,
   threejs,
+  bel,
   next,
 } from "../assets"; // Importing assets (icons, images) used in the project
 
@@ -48,11 +46,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Front-End Developer",
+    title: "Front-End",
     icon: backend,
   },
   {
-    title: "Full-Stack Developer",
+    title: "Back-End",
     icon: creator,
   },
 ];
@@ -104,42 +102,15 @@ const technologies = [
 // Work experiences with roles, companies, and responsibilities
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "StarBucks",
-    icon: starbucks,
+    title: "Quality Assurance Associate – PCB",
+    company_name: "Bharat Electronics Limited (BEL) – Bangalore, India",
+    icon: bel,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Oct 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Next.js Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full Stack Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducted visual and functional inspection of Printed Circuit Boards (PCBs) to ensure quality and compliance with design specifications",
+      "Collaborated with the QA team to identify and document defects in electronic components.",
+      "Created Goods Receipt (GR) entries post-inspection for approved PCBs, ensuring proper documentation and inventory tracking.",
     ],
   },
 ];
@@ -147,58 +118,16 @@ const experiences = [
 // Projects with descriptions, tags, images, and source code links
 const projects = [
   {
-    name: "E-Commerce",
+    name: "Bible App",
     description:
-      "Front-End web based app that allows users to search, book, and buy various trending clothing, providing a the best brand and quality for the future fashion.",
+      "A responsive Next.js web app to search and browse KJV Bible verses via manual input or dropdown. Features dark mode (with localStorage), TailwindCSS styling, and Bible API integration.",
     tags: [
       {
-        name: "html",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/Pymann1234/E-Commerce-Website",
-  },
-  {
-    name: "Note App",
-    description:
-      "Notes App is a simple tool where you can write down and save important information. It helps you keep things organized, and can often be used on different devices",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "vite",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/Pymann1234/Note-App",
-  },
-  {
-    name: "Weather App",
-    description:
-      "Weather API App is an application to show the current weather and forecasts for different locations and displays it in an easy-to-understand format on your device.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "materialUi",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
@@ -206,8 +135,54 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/Pymann1234/Weather-App",
+    image: bibleApp,
+    source_code_link: "https://github.com/Pymann1234/theHolyBible",
+  },
+  {
+    name: "iPhone 15 Website",
+    description:
+      "A React.js app, showcasing front-end skills and 3D animation using GSAP, Three.js. Built with modern front-end technologies to highlight product specifications, animations, and transitions",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: iPhone,
+    source_code_link: "https://github.com/Pymann1234/apple",
+  },
+  {
+    name: "MERN Product Store",
+    description:
+      "Full-stack product management app using React, Node.js, Express, and MongoDB with Zustand for state management. Features include CRUD operations, form validation, and responsive design",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: productStore,
+    source_code_link: "https://github.com/Pymann1234/product-store",
   },
 ];
 
